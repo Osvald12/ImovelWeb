@@ -19,6 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Rotas da tabeta corretores
+
+Route::get('/corretores', 'CorretorController@index')->name ('corretores.index');
